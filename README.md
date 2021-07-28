@@ -1,7 +1,7 @@
 # Api-CRUD Lumen
 ## Clone the Project
 ```
-	git clone git@github.com:YOUR_USERNAME/php-lumen-sample.git warpspeed-lumen.dev
+gh repo clone Josehpequeno/Api-CRUD-Lumen
 ```
 
 ## Configure your .env File
