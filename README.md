@@ -2,6 +2,7 @@
 ## Clone the Project
 ```
 gh repo clone Josehpequeno/Api-CRUD-Lumen
+
 ```
 
 ## Configure your .env File
@@ -36,24 +37,33 @@ php artisan make:migration create_users_table
 
 php artisan migrate
 ```
+## Run Server
+```
+php -S localhost:8000 -t public
+
+```
 ## API
 ### Create
 Create a user. Method POST. 
 ```
 http://localhost:8000/api/users
+
 ```
 ### Users
 Get all users. Method GET. 
 ```
 http://localhost:8000/api/users
+
 ```
 ### Update
 Update a user. Method POST. 
 ```
  http://localhost:8000/api/usersUpdate/{id}
+
 ```
 ### Delete
 Delete a user. Method DELETE. 
 ```
  http://localhost:8000/api/users/{id}
+
 ```
